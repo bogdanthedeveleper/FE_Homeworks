@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a{
+text-decoration : none;
+}
+body{
+font-size : 14px;
+font-family : "Helvetica Neue Regular", Tahoma,Arial;
+line-height : 1.5em;
+background-image : url(img/background.png);
+background-repeat : no-repeat;
+background-size : 100%;
+}
+.menus{
+  background-color : #085596;
+  height : 39px;
+}
+ul{
+display : block;
+height : 39px;
+background-color : #085596;
+}
+ul.menu{
+float : right;
+}
+ul.menu li{
+   display : inline-block;
+   padding : 9px 10px;
+   color : #58a9e1;
+}
+ul.menu li:hover{
+  background-color : #4eabda;
+  color : white;
+  font-weight : bold;
+}
+li.last{
+  padding-right : 0px;
+  border-right : 1px solid #53a4dd;
+}
+div.log-reg{
+float: right;
+margin-left : 20px;
+margin-right : 20px;
+border-right : #53a4dd;
+border-left: #53a4dd;
+}
+ul.log-reg li{
+  display : inline-block;
+  padding : 9px 10px 9px 30px;
+  color : white;
+}
+li.help{
+background : url(img/flag.png) center left no-repeat;
+}
+li.log-reg{
+background-color : #307dc6;
+
+}
+li.log-reg a{
+ color : white;
+ text-decoration : underline;
+}
+.wrapper{
+  margin : 2px auto 198px auto;
+  clear : both;
+  height : 610px;
+  width : 560px;
+  background-color : rgba(0,0,0,0.7);
+}
+.wrapperhead{
+  margin : 213px auto 1px auto;
+  clear : both;
+  width : 140px;
+  background-color : rgba(0,0,0,0.7);
+  font-size : 24px;
+  color : white;
+  padding : 19px 210px;
+  font-weight : bold;
+}
+.clearfix{
+  height : 1px;
+  margin-bottom : 34px;
+}
+a.facebook{
+  margin: 0px 125px 0px 125px;;
+  display : block;
+  width : 365px;
+  height : 35px;
+  background-image : url(img/facebook.png);
+  background-repeat : no-repeat;
+}
+.lines{
+  width : 277px;
+color : #999999;
+margin : 34px 125px 27px 125px;
+background : url(img/lines.png);
+background-repeat : no-repeat;
+background-position : center;
+text-align: center;
+}
+
+input[type="text"],input[type="password"],input[type="email"]{
+display : block;
+width : 260px;
+height : 34px;
+padding-left : 17px;
+background-color : rgb(0,0,0);
+color : #7d7d7d;
+margin : 0px 130px 18px 125px;
+border-top : none;
+border-left : none;
+border-right : none;
+border-bottom : 1px solid #484948;
+}
+input[type="text"]:hover,input[type="password"]:hover,input[type="email"]:hover{
+background-color : #1b5288;
+box-shadow: 0px 0px 15px 1px rgba(119,201,247,1);
+}
+input[type="checkbox"]{
+  color : white;
+  margin : 0px 5px 18px 125px;
+vertical-align : bottom;
+}
+
+label{
+  color : #b1aeae;
+  line-height : 1em;
+  vertical-align : top;
+}
+input[type="submit"]{
+  display : block;
+  margin : 0px 203px 20px 203px;
+  height : 34px;
+  width : 150px;
+  border-top : 1px solid #78d9f9;
+  border-right : none;
+  border-bottom : none;
+  border-left : none;
+  background-color : #48a3d7;
+  color : white;
+  font-weight : bold;
+}
+.finishp{
+color : #b1aeae;
+margin : 0px 126px 0px 122px;
+text-align : center;
+}
